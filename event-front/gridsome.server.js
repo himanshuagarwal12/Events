@@ -34,8 +34,8 @@ module.exports = function (api) {
         price: event.price,
         date: event.date,
         duration: event.duration,
-        thumbnail: event.image.formats.thumbnail.url,
-        image: event.image.formats.medium.url,
+        //thumbnail: event.image.formats.thumbnail.url,
+        //image: event.image.formats.medium.url,
         category: event.categories[0].id
       })
     }

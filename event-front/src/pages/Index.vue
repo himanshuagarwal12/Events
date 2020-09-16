@@ -20,7 +20,7 @@
 
         <v-card-title>{{ edge.node.title }}</v-card-title>
 
-        <v-card-subtitle class="pb-0">{{ formatDate(edge.node.date) }}</v-card-subtitle>
+        <v-card-subtitle class="pb-0">{{ formatdate(edge.node.date) }}</v-card-subtitle>
 
         <v-card-actions>
           <v-btn
@@ -47,8 +47,7 @@ query {
         price
         duration
         date
-        thumbnail
-        image
+       
         category
       }
     }
@@ -89,7 +88,7 @@ export default {
         return edge.node.category === val
       })
     },
-    formatDate(date) {
+    formatdate(date) {
       return moment(date).format('MMMM Do YYYY, h:mm a')
     },
     getEvents(searchText) {

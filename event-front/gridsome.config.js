@@ -6,6 +6,6 @@
 
 module.exports = {
   siteName: 'E-vents',
-  siteDescription:'Post or find online events.',
+  sitedescription:'Post or find online events.',
   plugins: []
 }

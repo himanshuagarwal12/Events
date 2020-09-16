@@ -9,19 +9,19 @@
     "timestamps": true
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
-    "Date": {
+    "date": {
       "type": "datetime"
     },
-    "Duration": {
+    "duration": {
       "type": "decimal"
     },
-    "Price": {
+    "price": {
       "type": "decimal"
     },
     "categories": {
